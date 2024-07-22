@@ -32,7 +32,7 @@ class TransactionController extends Controller
 
         // Converto o timestamp para o formato Carbon
         $timestamp = Carbon::parse($data['timestamp']);
-        Log::info('Timestamp convertido.', ['timestamp' => $timestamp->format('Y-m-d\TH:i:s.v\Z')]);
+        Log::info('Timestamp convertido.', ['timestamp' => $timestamp->format('Y-m-d\TH:i:s.u\Z')]);
         
         // Verificando se a transação é mais antiga que 60 segundos
         if($timestamp->diffInSeconds(now()) > 60) {
@@ -41,7 +41,7 @@ class TransactionController extends Controller
         }
         
         self::$transactions[] = $data;
-        Log::info('Transação armazenada.', ['timestamp' => $timestamp]);
+
         // Retornando resposta de sucesso
         return response()->json([], 201);
     }

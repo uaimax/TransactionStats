@@ -21,7 +21,7 @@ class TransactionController extends Controller
             // Validação dos dados de entrada
             $data = $request->validate([
                 'amount' => 'required|numeric',
-                'timestamp' => 'required|date_format:Y-m-d\TH:i:s.v\Z|before_or_equal:now',
+                'timestamp' => 'required|date_format:Y-m-d\TH:i:s.u\Z|before_or_equal:now',
             ]);
         } catch (ValidationException $e) {
             Log::error('Erro na validação dos dados.', ['errors' => $e->errors()]);
@@ -29,10 +29,9 @@ class TransactionController extends Controller
         }
 
         Log::info('Dados validados com sucesso.', ['data' => $data]);
-
+        
         // Converto o timestamp para o formato Carbon
         $timestamp = Carbon::parse($data['timestamp']);
-        Log::info('Timestamp convertido.', ['timestamp' => $timestamp->format('Y-m-d\TH:i:s.v\Z')]);
         
         // Verificando se a transação é mais antiga que 60 segundos
         if($timestamp->diffInSeconds(now()) > 60) {
@@ -41,7 +40,7 @@ class TransactionController extends Controller
         }
         
         self::$transactions[] = $data;
-        Log::info('Transação armazenada.', ['timestamp' => $timestamp]);
+
         // Retornando resposta de sucesso
         return response()->json([], 201);
     }

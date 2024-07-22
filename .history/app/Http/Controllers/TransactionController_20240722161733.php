@@ -41,7 +41,7 @@ class TransactionController extends Controller
         }
         
         self::$transactions[] = $data;
-        Log::info('Transação armazenada.', ['timestamp' => $timestamp]);
+
         // Retornando resposta de sucesso
         return response()->json([], 201);
     }

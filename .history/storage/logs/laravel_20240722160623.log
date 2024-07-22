@@ -1,0 +1,49 @@
+[2024-07-22 17:48:58] local.ERROR: Command "key:generatephp" is not defined.
+
+Did you mean one of these?
+    event:generate
+    key:generate {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"key:generatephp\" is not defined.
+
+Did you mean one of these?
+    event:generate
+    key:generate at F:\\laragon\\www\\TransactionStats\\vendor\\symfony\\console\\Application.php:737)
+[stacktrace]
+#0 F:\\laragon\\www\\TransactionStats\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('key:generatephp')
+#1 F:\\laragon\\www\\TransactionStats\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 F:\\laragon\\www\\TransactionStats\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 {main}
+"} 
+[2024-07-22 18:49:02] local.ERROR: Database connection [] not configured. {"exception":"[object] (InvalidArgumentException(code: 0): Database connection [] not configured. at F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\DatabaseManager.php:196)
+[stacktrace]
+#0 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\DatabaseManager.php(159): Illuminate\\Database\\DatabaseManager->configuration('')
+#1 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\DatabaseManager.php(101): Illuminate\\Database\\DatabaseManager->makeConnection('')
+#2 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\DatabaseMigrationRepository.php(226): Illuminate\\Database\\DatabaseManager->connection('')
+#3 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\DatabaseMigrationRepository.php(182): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->getConnection()
+#4 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(700): Illuminate\\Database\\Migrations\\DatabaseMigrationRepository->repositoryExists()
+#5 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(140): Illuminate\\Database\\Migrations\\Migrator->repositoryExists()
+#6 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\helpers.php(248): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}(1)
+#7 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(159): retry(1, Object(Closure), 0, Object(Closure))
+#8 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(116): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->repositoryExists()
+#9 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(84): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->prepareDatabase()
+#10 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Migrations\\Migrator.php(633): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->Illuminate\\Database\\Console\\Migrations\\{closure}()
+#11 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Console\\Migrations\\MigrateCommand.php(104): Illuminate\\Database\\Migrations\\Migrator->usingConnection(NULL, Object(Closure))
+#12 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Illuminate\\Database\\Console\\Migrations\\MigrateCommand->handle()
+#13 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(41): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(662): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(211): Illuminate\\Container\\Container->call(Array)
+#18 F:\\laragon\\www\\TransactionStats\\vendor\\symfony\\console\\Command\\Command.php(326): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(181): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 F:\\laragon\\www\\TransactionStats\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 F:\\laragon\\www\\TransactionStats\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Database\\Console\\Migrations\\MigrateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 F:\\laragon\\www\\TransactionStats\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 F:\\laragon\\www\\TransactionStats\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 F:\\laragon\\www\\TransactionStats\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 {main}
+"} 
+[2024-07-22 19:06:24] local.ERROR: 'break' not in the 'loop' or 'switch' context {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): 'break' not in the 'loop' or 'switch' context at F:\\laragon\\www\\TransactionStats\\app\\Http\\Controllers\\TransactionController.php:25)
+[stacktrace]
+#0 {main}
+"} 
