@@ -6,8 +6,9 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
-        "guzzlehttp/guzzle": "^7.2",
+        "guzzlehttp/guzzle": "^7.9",
         "laravel/framework": "^10.10",
+        "laravel/octane": "^2.5",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8"
     },
@@ -25,7 +26,10 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
+        },
+        "files": [
+            "app/Helpers/SemaphoreHelper.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {

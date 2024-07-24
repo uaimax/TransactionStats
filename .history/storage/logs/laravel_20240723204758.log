@@ -1,0 +1,17 @@
+[2024-07-23 23:47:50] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 23:47:50] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T23:47:50.147Z"} 
+[2024-07-23 23:47:50] local.INFO: Dados validados com sucesso. {"data":{"amount":200.5,"timestamp":"2024-07-23T23:47:50.147Z"}} 
+[2024-07-23 23:47:50] local.INFO: Semaforo [8] 
+[2024-07-23 23:47:50] local.INFO: Semáforo adquirido  
+[2024-07-23 23:47:50] local.INFO: Callback do semáforo iniciado. {"data":{"amount":200.5,"timestamp":"2024-07-23T23:47:50.147Z"},"timestamp":"2024-07-23 23:47:50"} 
+[2024-07-23 23:47:50] local.INFO: Transação adicionada {"amount":200.5,"timestamp":"2024-07-23 23:47:50","sum":200.5,"count":1,"min":200.5,"max":200.5} 
+[2024-07-23 23:47:50] local.INFO: Iniciando limpeza de transações antigas. {"expireTime":"2024-07-23 23:46:50"} 
+[2024-07-23 23:47:50] local.INFO: Iniciando limpeza de transações antigas. {"expireTime":"2024-07-23 23:46:50"} 
+[2024-07-23 23:47:50] local.INFO: Lista de transações não está vazia {"transaction_count":1} 
+[2024-07-23 23:47:50] local.INFO: Transação armazenada. {"amount":200.5,"timestamp":"2024-07-23 23:47:50"} 
+[2024-07-23 23:47:50] local.INFO: Callback do semáforo finalizado.  
+[2024-07-23 23:47:50] local.INFO: Semáforo liberado  
+[2024-07-23 23:47:50] local.INFO: Iniciando limpeza de transações antigas. {"expireTime":"2024-07-23 23:46:50"} 
+[2024-07-23 23:47:50] local.INFO: Iniciando limpeza de transações antigas. {"expireTime":"2024-07-23 23:46:50"} 
+[2024-07-23 23:47:50] local.INFO: Lista de transações está vazia  
+[2024-07-23 23:47:50] local.INFO: Estatísticas calculadas:  {"sum":0.0,"avg":0.0,"max":0.0,"min":0.0,"count":0} 

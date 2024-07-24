@@ -1,0 +1,198 @@
+[2024-07-24 01:16:36] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:16:36] local.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:16:35.855Z"} 
+[2024-07-24 01:16:36] local.INFO: Dados validados com sucesso. {"data":{"amount":200.5,"timestamp":"2024-07-24T01:16:35.855Z"}} 
+[2024-07-24 01:16:36] local.INFO: Semaforo [1] 
+[2024-07-24 01:16:36] local.INFO: Semáforo adquirido  
+[2024-07-24 01:16:36] local.INFO: Callback do semáforo iniciado. {"data":{"amount":200.5,"timestamp":"2024-07-24T01:16:35.855Z"},"timestamp":"2024-07-24 01:16:35"} 
+[2024-07-24 01:16:36] local.INFO: Transação adicionada {"amount":200.5,"timestamp":"2024-07-24 01:16:35","sum":200.5,"count":1,"min":200.5,"max":200.5} 
+[2024-07-24 01:16:36] local.INFO: Transações atuais em memória {"transactions":[{"amount":200.5,"timestamp":"2024-07-24 01:16:35"}]} 
+[2024-07-24 01:16:36] local.INFO: Transação armazenada. {"amount":200.5,"timestamp":"2024-07-24 01:16:35"} 
+[2024-07-24 01:16:36] local.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:16:36] local.INFO: Semáforo liberado  
+[2024-07-24 01:16:36] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:16:36] local.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:15:35.445Z"} 
+[2024-07-24 01:16:36] local.INFO: Dados validados com sucesso. {"data":{"amount":100.75,"timestamp":"2024-07-24T01:15:35.445Z"}} 
+[2024-07-24 01:16:36] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-24 01:15:35"} 
+[2024-07-24 01:16:36] local.INFO: Lista de transações está vazia  
+[2024-07-24 01:27:40] testing.INFO: Chamando o método destroy para resetar as transações.  
+[2024-07-24 01:27:40] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:27:40] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:27:30.965Z"} 
+[2024-07-24 01:27:40] testing.INFO: Dados validados com sucesso. {"data":{"amount":100.1,"timestamp":"2024-07-24T01:27:30.965Z"}} 
+[2024-07-24 01:27:40] testing.INFO: Semaforo [8] 
+[2024-07-24 01:27:40] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:27:40] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":100.1,"timestamp":"2024-07-24T01:27:30.965Z"},"timestamp":"2024-07-24 01:27:30"} 
+[2024-07-24 01:27:40] testing.INFO: Transação adicionada {"amount":100.1,"timestamp":"2024-07-24 01:27:30","sum":100.1,"count":1,"min":100.1,"max":100.1} 
+[2024-07-24 01:27:40] testing.INFO: Transação armazenada. {"amount":100.1,"timestamp":"2024-07-24 01:27:30"} 
+[2024-07-24 01:27:40] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:27:40] testing.INFO: Semáforo liberado  
+[2024-07-24 01:27:40] testing.INFO: Resposta da adição de transação 1 {"response":"[]"} 
+[2024-07-24 01:27:40] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:27:40] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:27:20.974Z"} 
+[2024-07-24 01:27:40] testing.INFO: Dados validados com sucesso. {"data":{"amount":100.75,"timestamp":"2024-07-24T01:27:20.974Z"}} 
+[2024-07-24 01:27:40] testing.INFO: Semaforo [6] 
+[2024-07-24 01:27:40] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:27:40] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":100.75,"timestamp":"2024-07-24T01:27:20.974Z"},"timestamp":"2024-07-24 01:27:20"} 
+[2024-07-24 01:27:40] testing.INFO: Transação adicionada {"amount":100.75,"timestamp":"2024-07-24 01:27:20","sum":200.85,"count":2,"min":100.1,"max":100.75} 
+[2024-07-24 01:27:40] testing.INFO: Transação armazenada. {"amount":100.75,"timestamp":"2024-07-24 01:27:20"} 
+[2024-07-24 01:27:40] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:27:40] testing.INFO: Semáforo liberado  
+[2024-07-24 01:27:40] testing.INFO: Resposta da adição de transação 2 {"response":"[]"} 
+[2024-07-24 01:27:40] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:27:40] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:27:10.976Z"} 
+[2024-07-24 01:27:40] testing.INFO: Dados validados com sucesso. {"data":{"amount":100.2,"timestamp":"2024-07-24T01:27:10.976Z"}} 
+[2024-07-24 01:27:40] testing.INFO: Semaforo [5] 
+[2024-07-24 01:27:40] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:27:40] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":100.2,"timestamp":"2024-07-24T01:27:10.976Z"},"timestamp":"2024-07-24 01:27:10"} 
+[2024-07-24 01:27:40] testing.INFO: Transação adicionada {"amount":100.2,"timestamp":"2024-07-24 01:27:10","sum":301.05,"count":3,"min":100.1,"max":100.75} 
+[2024-07-24 01:27:40] testing.INFO: Transação armazenada. {"amount":100.2,"timestamp":"2024-07-24 01:27:10"} 
+[2024-07-24 01:27:40] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:27:40] testing.INFO: Semáforo liberado  
+[2024-07-24 01:27:40] testing.INFO: Resposta da adição de transação 3 {"response":"[]"} 
+[2024-07-24 01:27:40] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:27:40] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:27:00.977Z"} 
+[2024-07-24 01:27:40] testing.INFO: Dados validados com sucesso. {"data":{"amount":300.25,"timestamp":"2024-07-24T01:27:00.977Z"}} 
+[2024-07-24 01:27:40] testing.INFO: Semaforo [0] 
+[2024-07-24 01:27:40] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:27:40] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":300.25,"timestamp":"2024-07-24T01:27:00.977Z"},"timestamp":"2024-07-24 01:27:00"} 
+[2024-07-24 01:27:40] testing.INFO: Transação adicionada {"amount":300.25,"timestamp":"2024-07-24 01:27:00","sum":601.3,"count":4,"min":100.1,"max":300.25} 
+[2024-07-24 01:27:40] testing.INFO: Transação armazenada. {"amount":300.25,"timestamp":"2024-07-24 01:27:00"} 
+[2024-07-24 01:27:40] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:27:40] testing.INFO: Semáforo liberado  
+[2024-07-24 01:27:40] testing.INFO: Resposta da adição de transação 4 {"response":"[]"} 
+[2024-07-24 01:27:40] testing.INFO: Verificando as estatísticas via API.  
+[2024-07-24 01:27:40] testing.INFO: Verificação antes do while {"oldest_transaction_timestamp":"2024-07-24 01:27:30","expire_time":"2024-07-24 01:26:40","expired":"Não","deve_entrar_no_while":"Não"} 
+[2024-07-24 01:27:40] testing.INFO: Estatísticas atuais: {"sum":601.3,"avg":150.33,"max":300.25,"min":100.1,"count":4}  
+[2024-07-24 01:27:40] testing.INFO: Chamando o método destroy para resetar as transações.  
+[2024-07-24 01:27:40] testing.INFO: Resposta da limpeza de transações {"response":""} 
+[2024-07-24 01:27:41] testing.INFO: Chamando o método destroy para resetar as transações.  
+[2024-07-24 01:27:41] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:27:41] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:26:40.001Z"} 
+[2024-07-24 01:27:41] testing.INFO: Dados validados com sucesso. {"data":{"amount":100.75,"timestamp":"2024-07-24T01:26:40.001Z"}} 
+[2024-07-24 01:27:41] testing.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-24 01:26:40"} 
+[2024-07-24 01:27:41] testing.INFO: Chamando o método destroy para resetar as transações.  
+[2024-07-24 01:27:41] testing.INFO: Resposta da limpeza de transações {"response":""} 
+[2024-07-24 01:27:41] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:27:41] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:27:31.002Z"} 
+[2024-07-24 01:27:41] testing.INFO: Dados validados com sucesso. {"data":{"amount":200.1,"timestamp":"2024-07-24T01:27:31.002Z"}} 
+[2024-07-24 01:27:41] testing.INFO: Semaforo [0] 
+[2024-07-24 01:27:41] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:27:41] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":200.1,"timestamp":"2024-07-24T01:27:31.002Z"},"timestamp":"2024-07-24 01:27:31"} 
+[2024-07-24 01:27:41] testing.INFO: Transação adicionada {"amount":200.1,"timestamp":"2024-07-24 01:27:31","sum":200.1,"count":1,"min":200.1,"max":200.1} 
+[2024-07-24 01:27:41] testing.INFO: Transação armazenada. {"amount":200.1,"timestamp":"2024-07-24 01:27:31"} 
+[2024-07-24 01:27:41] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:27:41] testing.INFO: Semáforo liberado  
+[2024-07-24 01:27:41] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:27:41] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:27:11.004Z"} 
+[2024-07-24 01:27:41] testing.INFO: Dados validados com sucesso. {"data":{"amount":300.1,"timestamp":"2024-07-24T01:27:11.004Z"}} 
+[2024-07-24 01:27:41] testing.INFO: Semaforo [1] 
+[2024-07-24 01:27:41] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:27:41] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":300.1,"timestamp":"2024-07-24T01:27:11.004Z"},"timestamp":"2024-07-24 01:27:11"} 
+[2024-07-24 01:27:41] testing.INFO: Transação adicionada {"amount":300.1,"timestamp":"2024-07-24 01:27:11","sum":500.20000000000005,"count":2,"min":200.1,"max":300.1} 
+[2024-07-24 01:27:41] testing.INFO: Transação armazenada. {"amount":300.1,"timestamp":"2024-07-24 01:27:11"} 
+[2024-07-24 01:27:41] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:27:41] testing.INFO: Semáforo liberado  
+[2024-07-24 01:27:41] testing.INFO: Verificação antes do while {"oldest_transaction_timestamp":"2024-07-24 01:27:31","expire_time":"2024-07-24 01:26:41","expired":"Não","deve_entrar_no_while":"Não"} 
+[2024-07-24 01:27:41] testing.INFO: Chamando o método destroy para resetar as transações.  
+[2024-07-24 01:27:41] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:27:41] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:27:11.014Z"} 
+[2024-07-24 01:27:41] testing.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-24T01:27:11.014Z"}} 
+[2024-07-24 01:27:41] testing.INFO: Semaforo [0] 
+[2024-07-24 01:27:41] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:27:41] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":100.5,"timestamp":"2024-07-24T01:27:11.014Z"},"timestamp":"2024-07-24 01:27:11"} 
+[2024-07-24 01:27:41] testing.INFO: Transação adicionada {"amount":100.5,"timestamp":"2024-07-24 01:27:11","sum":100.5,"count":1,"min":100.5,"max":100.5} 
+[2024-07-24 01:27:41] testing.INFO: Transação armazenada. {"amount":100.5,"timestamp":"2024-07-24 01:27:11"} 
+[2024-07-24 01:27:41] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:27:41] testing.INFO: Semáforo liberado  
+[2024-07-24 01:27:41] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:27:41] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:27:31.016Z"} 
+[2024-07-24 01:27:41] testing.INFO: Dados validados com sucesso. {"data":{"amount":200.75,"timestamp":"2024-07-24T01:27:31.016Z"}} 
+[2024-07-24 01:27:41] testing.INFO: Semaforo [3] 
+[2024-07-24 01:27:41] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:27:41] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":200.75,"timestamp":"2024-07-24T01:27:31.016Z"},"timestamp":"2024-07-24 01:27:31"} 
+[2024-07-24 01:27:41] testing.INFO: Transação adicionada {"amount":200.75,"timestamp":"2024-07-24 01:27:31","sum":301.25,"count":2,"min":100.5,"max":200.75} 
+[2024-07-24 01:27:41] testing.INFO: Transação armazenada. {"amount":200.75,"timestamp":"2024-07-24 01:27:31"} 
+[2024-07-24 01:27:41] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:27:41] testing.INFO: Semáforo liberado  
+[2024-07-24 01:28:42] testing.INFO: Verificação antes do while {"oldest_transaction_timestamp":"2024-07-24 01:27:11","expire_time":"2024-07-24 01:27:42","expired":"Sim","deve_entrar_no_while":"Sim"} 
+[2024-07-24 01:28:42] testing.INFO: Entrou no while  
+[2024-07-24 01:28:42] testing.INFO: Transação mais antiga {"timestamp":"2024-07-24 01:27:11","expire_time":"2024-07-24 01:27:42","now":"2024-07-24 01:28:42","expired":"Sim"} 
+[2024-07-24 01:28:42] testing.INFO: Entrou no while  
+[2024-07-24 01:28:42] testing.INFO: Transação mais antiga {"timestamp":"2024-07-24 01:27:31","expire_time":"2024-07-24 01:27:42","now":"2024-07-24 01:28:42","expired":"Sim"} 
+[2024-07-24 01:31:10] testing.INFO: Chamando o método destroy para resetar as transações.  
+[2024-07-24 01:31:10] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:31:10] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:31:00.805Z"} 
+[2024-07-24 01:31:10] testing.INFO: Dados validados com sucesso. {"data":{"amount":100.1,"timestamp":"2024-07-24T01:31:00.805Z"}} 
+[2024-07-24 01:31:10] testing.INFO: Semaforo [8] 
+[2024-07-24 01:31:10] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:31:10] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":100.1,"timestamp":"2024-07-24T01:31:00.805Z"},"timestamp":"2024-07-24 01:31:00"} 
+[2024-07-24 01:31:10] testing.INFO: Transação adicionada {"amount":100.1,"timestamp":"2024-07-24 01:31:00","sum":100.1,"count":1,"min":100.1,"max":100.1} 
+[2024-07-24 01:31:10] testing.INFO: Transação armazenada. {"amount":100.1,"timestamp":"2024-07-24 01:31:00"} 
+[2024-07-24 01:31:10] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:31:10] testing.INFO: Semáforo liberado  
+[2024-07-24 01:31:10] testing.INFO: Resposta da adição de transação 1 {"response":"[]"} 
+[2024-07-24 01:31:10] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:31:10] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:30:50.814Z"} 
+[2024-07-24 01:31:10] testing.INFO: Dados validados com sucesso. {"data":{"amount":100.75,"timestamp":"2024-07-24T01:30:50.814Z"}} 
+[2024-07-24 01:31:10] testing.INFO: Semaforo [8] 
+[2024-07-24 01:31:10] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:31:10] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":100.75,"timestamp":"2024-07-24T01:30:50.814Z"},"timestamp":"2024-07-24 01:30:50"} 
+[2024-07-24 01:31:10] testing.INFO: Transação adicionada {"amount":100.75,"timestamp":"2024-07-24 01:30:50","sum":200.85,"count":2,"min":100.1,"max":100.75} 
+[2024-07-24 01:31:10] testing.INFO: Transação armazenada. {"amount":100.75,"timestamp":"2024-07-24 01:30:50"} 
+[2024-07-24 01:31:10] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:31:10] testing.INFO: Semáforo liberado  
+[2024-07-24 01:31:10] testing.INFO: Resposta da adição de transação 2 {"response":"[]"} 
+[2024-07-24 01:31:10] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:31:10] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:30:40.815Z"} 
+[2024-07-24 01:31:10] testing.INFO: Dados validados com sucesso. {"data":{"amount":100.2,"timestamp":"2024-07-24T01:30:40.815Z"}} 
+[2024-07-24 01:31:10] testing.INFO: Semaforo [7] 
+[2024-07-24 01:31:10] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:31:10] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":100.2,"timestamp":"2024-07-24T01:30:40.815Z"},"timestamp":"2024-07-24 01:30:40"} 
+[2024-07-24 01:31:10] testing.INFO: Transação adicionada {"amount":100.2,"timestamp":"2024-07-24 01:30:40","sum":301.05,"count":3,"min":100.1,"max":100.75} 
+[2024-07-24 01:31:10] testing.INFO: Transação armazenada. {"amount":100.2,"timestamp":"2024-07-24 01:30:40"} 
+[2024-07-24 01:31:10] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:31:10] testing.INFO: Semáforo liberado  
+[2024-07-24 01:31:10] testing.INFO: Resposta da adição de transação 3 {"response":"[]"} 
+[2024-07-24 01:31:10] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:31:10] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:30:30.817Z"} 
+[2024-07-24 01:31:10] testing.INFO: Dados validados com sucesso. {"data":{"amount":300.25,"timestamp":"2024-07-24T01:30:30.817Z"}} 
+[2024-07-24 01:31:10] testing.INFO: Semaforo [5] 
+[2024-07-24 01:31:10] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:31:10] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":300.25,"timestamp":"2024-07-24T01:30:30.817Z"},"timestamp":"2024-07-24 01:30:30"} 
+[2024-07-24 01:31:10] testing.INFO: Transação adicionada {"amount":300.25,"timestamp":"2024-07-24 01:30:30","sum":601.3,"count":4,"min":100.1,"max":300.25} 
+[2024-07-24 01:31:10] testing.INFO: Transação armazenada. {"amount":300.25,"timestamp":"2024-07-24 01:30:30"} 
+[2024-07-24 01:31:10] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:31:10] testing.INFO: Semáforo liberado  
+[2024-07-24 01:31:10] testing.INFO: Resposta da adição de transação 4 {"response":"[]"} 
+[2024-07-24 01:31:10] testing.INFO: Verificando as estatísticas via API.  
+[2024-07-24 01:31:10] testing.INFO: Verificação antes do while {"oldest_transaction_timestamp":"2024-07-24 01:31:00","expire_time":"2024-07-24 01:30:10","expired":"Não","deve_entrar_no_while":"Não"} 
+[2024-07-24 01:31:10] testing.INFO: Estatísticas atuais: {"sum":601.3,"avg":150.33,"max":300.25,"min":100.1,"count":4}  
+[2024-07-24 01:31:10] testing.INFO: Chamando o método destroy para resetar as transações.  
+[2024-07-24 01:31:10] testing.INFO: Resposta da limpeza de transações {"response":""} 
+[2024-07-24 01:31:10] testing.INFO: Chamando o método destroy para resetar as transações.  
+[2024-07-24 01:31:10] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:31:10] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:30:09.838Z"} 
+[2024-07-24 01:31:10] testing.INFO: Dados validados com sucesso. {"data":{"amount":100.75,"timestamp":"2024-07-24T01:30:09.838Z"}} 
+[2024-07-24 01:31:10] testing.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-24 01:30:09"} 
+[2024-07-24 01:31:10] testing.INFO: Chamando o método destroy para resetar as transações.  
+[2024-07-24 01:31:10] testing.INFO: Resposta da limpeza de transações {"response":""} 
+[2024-07-24 01:31:10] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:31:10] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:31:00.840Z"} 
+[2024-07-24 01:31:10] testing.INFO: Dados validados com sucesso. {"data":{"amount":200.1,"timestamp":"2024-07-24T01:31:00.840Z"}} 
+[2024-07-24 01:31:10] testing.INFO: Semaforo [7] 
+[2024-07-24 01:31:10] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:31:10] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":200.1,"timestamp":"2024-07-24T01:31:00.840Z"},"timestamp":"2024-07-24 01:31:00"} 
+[2024-07-24 01:31:10] testing.INFO: Transação adicionada {"amount":200.1,"timestamp":"2024-07-24 01:31:00","sum":200.1,"count":1,"min":200.1,"max":200.1} 
+[2024-07-24 01:31:10] testing.INFO: Transação armazenada. {"amount":200.1,"timestamp":"2024-07-24 01:31:00"} 
+[2024-07-24 01:31:10] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:31:10] testing.INFO: Semáforo liberado  
+[2024-07-24 01:31:10] testing.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 01:31:10] testing.INFO: Timestamp convertido. {"timestamp":"2024-07-24T01:30:40.841Z"} 
+[2024-07-24 01:31:10] testing.INFO: Dados validados com sucesso. {"data":{"amount":300.1,"timestamp":"2024-07-24T01:30:40.841Z"}} 
+[2024-07-24 01:31:10] testing.INFO: Semaforo [6] 
+[2024-07-24 01:31:10] testing.INFO: Semáforo adquirido  
+[2024-07-24 01:31:10] testing.INFO: Callback do semáforo iniciado. {"data":{"amount":300.1,"timestamp":"2024-07-24T01:30:40.841Z"},"timestamp":"2024-07-24 01:30:40"} 
+[2024-07-24 01:31:10] testing.INFO: Transação adicionada {"amount":300.1,"timestamp":"2024-07-24 01:30:40","sum":500.20000000000005,"count":2,"min":200.1,"max":300.1} 
+[2024-07-24 01:31:10] testing.INFO: Transação armazenada. {"amount":300.1,"timestamp":"2024-07-24 01:30:40"} 
+[2024-07-24 01:31:10] testing.INFO: Callback do semáforo finalizado.  
+[2024-07-24 01:31:10] testing.INFO: Semáforo liberado  
+[2024-07-24 01:31:10] testing.INFO: Verificação antes do while {"oldest_transaction_timestamp":"2024-07-24 01:31:00","expire_time":"2024-07-24 01:30:10","expired":"Não","deve_entrar_no_while":"Não"} 

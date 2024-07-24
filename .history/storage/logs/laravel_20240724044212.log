@@ -1,0 +1,675 @@
+[2024-07-24 07:38:02] testing.INFO: Criando nova instância de StatisticsHelper  
+[2024-07-24 07:38:02] testing.INFO: Dados lidos da memória compartilhada {"storedTransactions":[[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],{"amount":100.5,"timestamp":"2024-07-24 07:36:54"},{"amount":200.75,"timestamp":"2024-07-24 07:37:25"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":0,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":1,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":2,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":3,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":4,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":5,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":6,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":7,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":8,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":9,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":10,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":11,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":12,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":13,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":14,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":15,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:02] testing.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":16,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:02] testing.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":17,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:02] testing.INFO: Verificando transação {"index":18,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:02] testing.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:02] testing.INFO: Resetando lista de transações e estatísticas  
+[2024-07-24 07:38:02] testing.INFO: Transação adicionada {"amount":100.5,"timestamp":"2024-07-24 07:37:01","sum":100.5,"count":1,"min":100.5,"max":100.5} 
+[2024-07-24 07:38:02] testing.INFO: Transação adicionada {"amount":200.75,"timestamp":"2024-07-24 07:37:32","sum":301.25,"count":2,"min":100.5,"max":200.75} 
+[2024-07-24 07:38:02] testing.INFO: Transações após a limpeza {"transactions":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:02] testing.INFO: Transações após a limpeza {"transactions":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:02] testing.INFO: Transações antes do cálculo de estatísticas {"transactions":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:02] testing.INFO: Calculando estatísticas {"sum":200.75,"avg":200.75,"max":200.75,"min":200.75,"count":1} 
+[2024-07-24 07:38:22] local.INFO: Chamando o método destroy para resetar as transações.  
+[2024-07-24 07:38:22] local.INFO: Criando nova instância de StatisticsHelper  
+[2024-07-24 07:38:22] local.INFO: Dados lidos da memória compartilhada {"storedTransactions":[[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],{"amount":100.5,"timestamp":"2024-07-24 07:36:54"},{"amount":200.75,"timestamp":"2024-07-24 07:37:25"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],{"amount":100.5,"timestamp":"2024-07-24 07:37:01"},{"amount":200.75,"timestamp":"2024-07-24 07:37:32"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":0,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":1,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":2,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":3,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":4,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":5,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":6,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":7,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":8,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":9,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":10,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":11,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":12,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":13,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":14,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":15,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":16,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":17,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":18,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":19,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":20,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":21,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":22,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Resetando lista de transações e estatísticas  
+[2024-07-24 07:38:22] local.INFO: Dados validados com sucesso. {"data":{"amount":100,"timestamp":"2024-07-24T07:38:22.595Z"}} 
+[2024-07-24 07:38:22] local.INFO: Criando nova instância de StatisticsHelper  
+[2024-07-24 07:38:22] local.INFO: Dados lidos da memória compartilhada {"storedTransactions":[[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],{"amount":100.5,"timestamp":"2024-07-24 07:36:54"},{"amount":200.75,"timestamp":"2024-07-24 07:37:25"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],{"amount":100.5,"timestamp":"2024-07-24 07:37:01"},{"amount":200.75,"timestamp":"2024-07-24 07:37:32"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":0,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":1,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":2,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":3,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":4,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":5,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":6,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":7,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":8,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":9,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":10,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":11,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":12,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":13,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":14,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":15,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":16,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":17,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":18,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":19,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":20,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":21,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":22,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Transação adicionada {"amount":100,"timestamp":"2024-07-24 07:38:22","sum":702.5,"count":5,"min":100,"max":200.75} 
+[2024-07-24 07:38:22] local.INFO: Transação armazenada. {"amount":100,"timestamp":"2024-07-24 07:38:22"} 
+[2024-07-24 07:38:22] local.INFO: Dados validados com sucesso. {"data":{"amount":100,"timestamp":"2024-07-24T07:38:22.595Z"}} 
+[2024-07-24 07:38:22] local.INFO: Criando nova instância de StatisticsHelper  
+[2024-07-24 07:38:22] local.INFO: Dados lidos da memória compartilhada {"storedTransactions":[[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],{"amount":100.5,"timestamp":"2024-07-24 07:36:54"},{"amount":200.75,"timestamp":"2024-07-24 07:37:25"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],{"amount":100.5,"timestamp":"2024-07-24 07:37:01"},{"amount":200.75,"timestamp":"2024-07-24 07:37:32"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],{"amount":100,"timestamp":"2024-07-24 07:38:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":0,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":1,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":2,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":3,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":4,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":5,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":6,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":7,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":8,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":9,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":10,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":11,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":12,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":13,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":14,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":15,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":16,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":17,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":18,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":19,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":20,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":21,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":22,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":23,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Transação adicionada {"amount":100,"timestamp":"2024-07-24 07:38:22","sum":802.5,"count":6,"min":100,"max":200.75} 
+[2024-07-24 07:38:22] local.INFO: Transação armazenada. {"amount":100,"timestamp":"2024-07-24 07:38:22"} 
+[2024-07-24 07:38:22] local.INFO: Dados validados com sucesso. {"data":{"amount":100,"timestamp":"2024-07-24T07:38:22.595Z"}} 
+[2024-07-24 07:38:22] local.INFO: Criando nova instância de StatisticsHelper  
+[2024-07-24 07:38:22] local.INFO: Dados lidos da memória compartilhada {"storedTransactions":[[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],{"amount":100.5,"timestamp":"2024-07-24 07:36:54"},{"amount":200.75,"timestamp":"2024-07-24 07:37:25"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],{"amount":100.5,"timestamp":"2024-07-24 07:37:01"},{"amount":200.75,"timestamp":"2024-07-24 07:37:32"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":0,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":1,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":2,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":3,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":4,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":5,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":6,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":7,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":8,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":9,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":10,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":11,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":12,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":13,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":14,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":15,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":16,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":17,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":18,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":19,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":20,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":21,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":22,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":23,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":24,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Dados validados com sucesso. {"data":{"amount":100,"timestamp":"2024-07-24T07:38:22.595Z"}} 
+[2024-07-24 07:38:22] local.INFO: Transação adicionada {"amount":100,"timestamp":"2024-07-24 07:38:22","sum":902.5,"count":7,"min":100,"max":200.75} 
+[2024-07-24 07:38:22] local.INFO: Transação armazenada. {"amount":100,"timestamp":"2024-07-24 07:38:22"} 
+[2024-07-24 07:38:22] local.INFO: Criando nova instância de StatisticsHelper  
+[2024-07-24 07:38:22] local.INFO: Dados lidos da memória compartilhada {"storedTransactions":[[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],{"amount":100.5,"timestamp":"2024-07-24 07:36:54"},{"amount":200.75,"timestamp":"2024-07-24 07:37:25"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],{"amount":100.5,"timestamp":"2024-07-24 07:37:01"},{"amount":200.75,"timestamp":"2024-07-24 07:37:32"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":0,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":1,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":2,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":3,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":4,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":5,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":6,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":7,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":8,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":9,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":10,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":11,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":12,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":13,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":14,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":15,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":16,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":17,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":18,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":19,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":20,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":21,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":22,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":23,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":24,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":25,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Transação adicionada {"amount":100,"timestamp":"2024-07-24 07:38:22","sum":1002.5,"count":8,"min":100,"max":200.75} 
+[2024-07-24 07:38:22] local.INFO: Transação armazenada. {"amount":100,"timestamp":"2024-07-24 07:38:22"} 
+[2024-07-24 07:38:22] local.INFO: Dados validados com sucesso. {"data":{"amount":100,"timestamp":"2024-07-24T07:38:22.595Z"}} 
+[2024-07-24 07:38:22] local.INFO: Dados validados com sucesso. {"data":{"amount":100,"timestamp":"2024-07-24T07:38:22.595Z"}} 
+[2024-07-24 07:38:22] local.INFO: Criando nova instância de StatisticsHelper  
+[2024-07-24 07:38:22] local.INFO: Dados lidos da memória compartilhada {"storedTransactions":[[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],{"amount":100.5,"timestamp":"2024-07-24 07:36:54"},{"amount":200.75,"timestamp":"2024-07-24 07:37:25"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],{"amount":100.5,"timestamp":"2024-07-24 07:37:01"},{"amount":200.75,"timestamp":"2024-07-24 07:37:32"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":0,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":1,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":2,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":3,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":4,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":5,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":6,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":7,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":8,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":9,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":10,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":11,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":12,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":13,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":14,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":15,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":16,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":17,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":18,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":19,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":20,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":21,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":22,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":23,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":24,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":25,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":26,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Transação adicionada {"amount":100,"timestamp":"2024-07-24 07:38:22","sum":1102.5,"count":9,"min":100,"max":200.75} 
+[2024-07-24 07:38:22] local.INFO: Transação armazenada. {"amount":100,"timestamp":"2024-07-24 07:38:22"} 
+[2024-07-24 07:38:22] local.INFO: Criando nova instância de StatisticsHelper  
+[2024-07-24 07:38:22] local.INFO: Dados lidos da memória compartilhada {"storedTransactions":[[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],{"amount":100.5,"timestamp":"2024-07-24 07:36:54"},{"amount":200.75,"timestamp":"2024-07-24 07:37:25"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],{"amount":100.5,"timestamp":"2024-07-24 07:37:01"},{"amount":200.75,"timestamp":"2024-07-24 07:37:32"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":0,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":1,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":2,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":3,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":4,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":5,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":6,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":7,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":8,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":9,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":10,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":11,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":12,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":13,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":14,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":15,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":16,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":17,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":18,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":19,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":20,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":21,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":22,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":23,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":24,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":25,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":26,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":27,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.ERROR: Erro ao processar transação. {"error":"Os dados excedem o tamanho do segmento de memória."} 
+[2024-07-24 07:38:22] local.INFO: Dados validados com sucesso. {"data":{"amount":100,"timestamp":"2024-07-24T07:38:22.595Z"}} 
+[2024-07-24 07:38:22] local.INFO: Criando nova instância de StatisticsHelper  
+[2024-07-24 07:38:22] local.INFO: Dados validados com sucesso. {"data":{"amount":100,"timestamp":"2024-07-24T07:38:22.595Z"}} 
+[2024-07-24 07:38:22] local.INFO: Dados lidos da memória compartilhada {"storedTransactions":[[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],{"amount":100.5,"timestamp":"2024-07-24 07:36:54"},{"amount":200.75,"timestamp":"2024-07-24 07:37:25"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],{"amount":100.5,"timestamp":"2024-07-24 07:37:01"},{"amount":200.75,"timestamp":"2024-07-24 07:37:32"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":0,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":1,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":2,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":3,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":4,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":5,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":6,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":7,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":8,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":9,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":10,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":11,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":12,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":13,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":14,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":15,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":16,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":17,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":18,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":19,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":20,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":21,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":22,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":23,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":24,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":25,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":26,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":27,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.ERROR: Erro ao processar transação. {"error":"Os dados excedem o tamanho do segmento de memória."} 
+[2024-07-24 07:38:22] local.INFO: Criando nova instância de StatisticsHelper  
+[2024-07-24 07:38:22] local.INFO: Dados lidos da memória compartilhada {"storedTransactions":[[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],{"amount":100.5,"timestamp":"2024-07-24 07:36:54"},{"amount":200.75,"timestamp":"2024-07-24 07:37:25"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],{"amount":100.5,"timestamp":"2024-07-24 07:37:01"},{"amount":200.75,"timestamp":"2024-07-24 07:37:32"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":0,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":1,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":2,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":3,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":4,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":5,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":6,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":7,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":8,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":9,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":10,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":11,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":12,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":13,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":14,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":15,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":16,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":17,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":18,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":19,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":20,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":21,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":22,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":23,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":24,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":25,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":26,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":27,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.ERROR: Erro ao processar transação. {"error":"Os dados excedem o tamanho do segmento de memória."} 
+[2024-07-24 07:38:22] local.INFO: Dados validados com sucesso. {"data":{"amount":100,"timestamp":"2024-07-24T07:38:22.595Z"}} 
+[2024-07-24 07:38:22] local.INFO: Criando nova instância de StatisticsHelper  
+[2024-07-24 07:38:22] local.INFO: Dados lidos da memória compartilhada {"storedTransactions":[[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],{"amount":100.5,"timestamp":"2024-07-24 07:36:54"},{"amount":200.75,"timestamp":"2024-07-24 07:37:25"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],{"amount":100.5,"timestamp":"2024-07-24 07:37:01"},{"amount":200.75,"timestamp":"2024-07-24 07:37:32"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":0,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":1,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":2,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":3,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":4,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":5,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":6,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":7,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":8,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":9,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":10,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":11,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":12,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":13,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":14,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":15,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":16,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":17,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":18,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":19,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":20,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":21,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":22,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":23,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":24,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":25,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":26,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":27,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.ERROR: Erro ao processar transação. {"error":"Os dados excedem o tamanho do segmento de memória."} 
+[2024-07-24 07:38:22] local.INFO: Criando nova instância de StatisticsHelper  
+[2024-07-24 07:38:22] local.INFO: Dados lidos da memória compartilhada {"storedTransactions":[[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}],[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}],[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}],{"amount":100.5,"timestamp":"2024-07-24 07:36:54"},{"amount":200.75,"timestamp":"2024-07-24 07:37:25"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}],{"amount":100.5,"timestamp":"2024-07-24 07:37:01"},{"amount":200.75,"timestamp":"2024-07-24 07:37:32"},[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}],{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"},{"amount":100,"timestamp":"2024-07-24 07:38:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":0,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:01"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":1,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":2,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":3,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":4,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:09"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":5,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":6,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":7,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:34:40"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":8,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:34:51"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":9,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":10,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:22"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":11,"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":100.5,"timestamp":"2024-07-24 07:35:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":12,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":13,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":14,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:35:56"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":15,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:36:54"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":16,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":17,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":18,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:25"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":19,"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100.5,"timestamp":"2024-07-24 07:37:01"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":20,"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":21,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":22,"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.WARNING: Transação inválida encontrada {"transaction":[{"amount":200.75,"timestamp":"2024-07-24 07:37:32"}]} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":23,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":24,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":25,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":26,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Verificando transação {"index":27,"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.INFO: Processando transação {"transaction":{"amount":100,"timestamp":"2024-07-24 07:38:22"}} 
+[2024-07-24 07:38:22] local.ERROR: Erro ao processar transação. {"error":"Os dados excedem o tamanho do segmento de memória."} 
+[2024-07-24 07:38:23] testing.INFO: POST /transactions executou em 0.72951221466064 segundos para 10 solicitações.  
+[2024-07-24 07:38:23] testing.ERROR: Requisição rejeitada {"reason":"Server error: `POST http://transactionstats.test/api/transactions` resulted in a `500 Internal Server Error` response:
+{\"error\":\"Os dados excedem o tamanho do segmento de mem\\u00f3ria.\"}
+"} 

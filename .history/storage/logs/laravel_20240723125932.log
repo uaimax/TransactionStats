@@ -1,0 +1,96 @@
+[2024-07-23 15:56:34] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:56:34] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T14:56:00.000Z"} 
+[2024-07-23 15:56:34] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T14:56:00.000Z"}} 
+[2024-07-23 15:56:34] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 14:56:00"} 
+[2024-07-23 15:56:41] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:56:41] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:56:00.000Z"} 
+[2024-07-23 15:56:41] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:56:00.000Z"}} 
+[2024-07-23 15:56:41] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:56:00"} 
+[2024-07-23 15:56:45] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:56:45] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:00.000Z"} 
+[2024-07-23 15:56:45] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:00.000Z"}} 
+[2024-07-23 15:56:45] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:00"} 
+[2024-07-23 15:56:46] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:56:46] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:00.000Z"} 
+[2024-07-23 15:56:46] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:00.000Z"}} 
+[2024-07-23 15:56:46] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:00"} 
+[2024-07-23 15:56:47] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:56:47] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:00.000Z"} 
+[2024-07-23 15:56:47] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:00.000Z"}} 
+[2024-07-23 15:56:47] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:00"} 
+[2024-07-23 15:56:55] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:56:55] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:20.000Z"} 
+[2024-07-23 15:56:55] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:20.000Z"}} 
+[2024-07-23 15:56:55] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:20"} 
+[2024-07-23 15:56:56] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:56:56] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:20.000Z"} 
+[2024-07-23 15:56:56] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:20.000Z"}} 
+[2024-07-23 15:56:56] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:20"} 
+[2024-07-23 15:56:57] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:56:57] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:20.000Z"} 
+[2024-07-23 15:56:57] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:20.000Z"}} 
+[2024-07-23 15:56:57] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:20"} 
+[2024-07-23 15:57:02] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:57:02] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:20.000Z"} 
+[2024-07-23 15:57:02] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:20.000Z"}} 
+[2024-07-23 15:57:02] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:20"} 
+[2024-07-23 15:57:02] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:57:02] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:20.000Z"} 
+[2024-07-23 15:57:02] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:20.000Z"}} 
+[2024-07-23 15:57:02] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:20"} 
+[2024-07-23 15:57:03] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:57:03] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:20.000Z"} 
+[2024-07-23 15:57:03] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:20.000Z"}} 
+[2024-07-23 15:57:03] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:20"} 
+[2024-07-23 15:57:04] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:57:04] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:20.000Z"} 
+[2024-07-23 15:57:04] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:20.000Z"}} 
+[2024-07-23 15:57:04] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:20"} 
+[2024-07-23 15:57:04] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:57:04] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:20.000Z"} 
+[2024-07-23 15:57:04] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:20.000Z"}} 
+[2024-07-23 15:57:04] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:20"} 
+[2024-07-23 15:57:04] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:57:04] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:20.000Z"} 
+[2024-07-23 15:57:04] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:20.000Z"}} 
+[2024-07-23 15:57:04] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:20"} 
+[2024-07-23 15:57:04] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:57:04] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:20.000Z"} 
+[2024-07-23 15:57:04] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:20.000Z"}} 
+[2024-07-23 15:57:04] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:20"} 
+[2024-07-23 15:57:05] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:57:05] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:20.000Z"} 
+[2024-07-23 15:57:05] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:20.000Z"}} 
+[2024-07-23 15:57:05] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:20"} 
+[2024-07-23 15:57:06] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:57:06] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T12:57:20.000Z"} 
+[2024-07-23 15:57:06] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T12:57:20.000Z"}} 
+[2024-07-23 15:57:06] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-23 12:57:20"} 
+[2024-07-23 15:57:39] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:57:39] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T15:57:31.702Z"} 
+[2024-07-23 15:57:39] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T15:57:31.702Z"}} 
+[2024-07-23 15:57:39] local.INFO: Semaforo [4] 
+[2024-07-23 15:57:39] local.INFO: Semáforo adquirido  
+[2024-07-23 15:57:39] local.INFO: Callback do semáforo iniciado. {"data":{"amount":100.5,"timestamp":"2024-07-23T15:57:31.702Z"},"timestamp":"2024-07-23 15:57:31"} 
+[2024-07-23 15:57:39] local.INFO: Transação armazenada. {"amount":100.5,"timestamp":"2024-07-23 15:57:31"} 
+[2024-07-23 15:57:39] local.INFO: Callback do semáforo finalizado.  
+[2024-07-23 15:57:39] local.INFO: Semáforo liberado  
+[2024-07-23 15:58:00] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:58:00] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T15:57:31.702Z"} 
+[2024-07-23 15:58:00] local.INFO: Dados validados com sucesso. {"data":{"amount":100.5,"timestamp":"2024-07-23T15:57:31.702Z"}} 
+[2024-07-23 15:58:00] local.INFO: Semaforo [4] 
+[2024-07-23 15:58:00] local.INFO: Semáforo adquirido  
+[2024-07-23 15:58:00] local.INFO: Callback do semáforo iniciado. {"data":{"amount":100.5,"timestamp":"2024-07-23T15:57:31.702Z"},"timestamp":"2024-07-23 15:57:31"} 
+[2024-07-23 15:58:00] local.INFO: Transação armazenada. {"amount":100.5,"timestamp":"2024-07-23 15:57:31"} 
+[2024-07-23 15:58:00] local.INFO: Callback do semáforo finalizado.  
+[2024-07-23 15:58:00] local.INFO: Semáforo liberado  
+[2024-07-23 15:58:14] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-23 15:58:14] local.INFO: Timestamp convertido. {"timestamp":"2024-07-23T15:57:31.702Z"} 
+[2024-07-23 15:58:14] local.INFO: Dados validados com sucesso. {"data":{"amount":200.5,"timestamp":"2024-07-23T15:57:31.702Z"}} 
+[2024-07-23 15:58:14] local.INFO: Semaforo [4] 
+[2024-07-23 15:58:14] local.INFO: Semáforo adquirido  
+[2024-07-23 15:58:14] local.INFO: Callback do semáforo iniciado. {"data":{"amount":200.5,"timestamp":"2024-07-23T15:57:31.702Z"},"timestamp":"2024-07-23 15:57:31"} 
+[2024-07-23 15:58:14] local.INFO: Transação armazenada. {"amount":200.5,"timestamp":"2024-07-23 15:57:31"} 
+[2024-07-23 15:58:14] local.INFO: Callback do semáforo finalizado.  
+[2024-07-23 15:58:14] local.INFO: Semáforo liberado  
+

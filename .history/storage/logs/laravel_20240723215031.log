@@ -1,0 +1,21 @@
+[2024-07-24 00:49:43] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 00:49:43] local.INFO: Timestamp convertido. {"timestamp":"2024-07-24T00:49:42.952Z"} 
+[2024-07-24 00:49:43] local.INFO: Dados validados com sucesso. {"data":{"amount":200.5,"timestamp":"2024-07-24T00:49:42.952Z"}} 
+[2024-07-24 00:49:43] local.INFO: Semaforo [3] 
+[2024-07-24 00:49:43] local.INFO: Semáforo adquirido  
+[2024-07-24 00:49:43] local.INFO: Callback do semáforo iniciado. {"data":{"amount":200.5,"timestamp":"2024-07-24T00:49:42.952Z"},"timestamp":"2024-07-24 00:49:42"} 
+[2024-07-24 00:49:43] local.INFO: Transação adicionada {"amount":200.5,"timestamp":"2024-07-24 00:49:42","sum":200.5,"count":1,"min":200.5,"max":200.5} 
+[2024-07-24 00:49:43] local.INFO: Iniciando limpeza de transações antigas. {"expireTime":"2024-07-24T00:48:43.091Z"} 
+[2024-07-24 00:49:43] local.INFO: Lista de transações não está vazia {"transaction_count":1} 
+[2024-07-24 00:49:43] local.INFO: Transação mais antiga na lista {"oldest_transaction":{"amount":200.5,"timestamp":"2024-07-24 00:49:42"}} 
+[2024-07-24 00:49:43] local.INFO: Timestamp da transação mais antiga como Carbon {"oldest_transaction_timestamp":"2024-07-24T00:49:42.952Z"} 
+[2024-07-24 00:49:43] local.INFO: Comparando timestamps {"oldest_transaction_timestamp":"2024-07-24T00:49:42.952Z","expire_time":"2024-07-24T00:48:43.091Z","comparison_result":false} 
+[2024-07-24 00:49:43] local.INFO: Transação armazenada. {"amount":200.5,"timestamp":"2024-07-24 00:49:42"} 
+[2024-07-24 00:49:43] local.INFO: Callback do semáforo finalizado.  
+[2024-07-24 00:49:43] local.INFO: Semáforo liberado  
+[2024-07-24 00:49:43] local.INFO: Iniciando validação dos dados de entrada.  
+[2024-07-24 00:49:43] local.INFO: Timestamp convertido. {"timestamp":"2024-07-24T00:48:42.573Z"} 
+[2024-07-24 00:49:43] local.INFO: Dados validados com sucesso. {"data":{"amount":100.75,"timestamp":"2024-07-24T00:48:42.573Z"}} 
+[2024-07-24 00:49:43] local.INFO: Transação mais antiga que 60 segundos. {"timestamp":"2024-07-24 00:48:42"} 
+[2024-07-24 00:49:43] local.INFO: Iniciando limpeza de transações antigas. {"expireTime":"2024-07-24T00:48:43.786Z"} 
+[2024-07-24 00:49:43] local.INFO: Lista de transações está vazia  
