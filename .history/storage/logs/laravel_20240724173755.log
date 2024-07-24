@@ -1,0 +1,183 @@
+[2024-07-24 20:28:28] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:28:28] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:28:28] local.INFO: Current timestamp: 1721852908  
+[2024-07-24 20:28:28] local.INFO: Oldest timestamp allowed: 1721852848  
+[2024-07-24 20:28:28] local.INFO: Oldest minute index calculated: 27  
+[2024-07-24 20:28:28] local.INFO: Transactions at index 27 have been removed.  
+[2024-07-24 20:28:28] local.INFO: Updated sum: 200.5, count: 1, max: 200.5, min: 200.5  
+[2024-07-24 20:28:28] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:28:28] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:28:28] local.INFO: After cleanUpOldTransactions call - Count: 1  
+[2024-07-24 20:28:28] local.INFO: Statistics after cleanup - Sum: 200.5, Max: 200.5, Min: 200.5, Count: 1  
+[2024-07-24 20:28:28] local.INFO: Estatísticas calculadas:  {"sum":"200.50","avg":"200.50","max":"200.50","min":"200.50","count":1} 
+[2024-07-24 20:28:28] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:34:57] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:34:57] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:34:57] local.INFO: Current timestamp: 1721853297  
+[2024-07-24 20:34:57] local.INFO: Current minute index calculated: 34  
+[2024-07-24 20:34:57] local.INFO: Updated sum: 0, count: 0, max: 2.2250738585072E-308, min: 1.7976931348623E+308  
+[2024-07-24 20:34:57] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:34:57] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:34:57] local.INFO: After cleanUpOldTransactions call - Count: 0  
+[2024-07-24 20:34:57] local.INFO: Statistics after cleanup - Sum: 0, Max: 2.2250738585072E-308, Min: 1.7976931348623E+308, Count: 0  
+[2024-07-24 20:34:57] local.INFO: Estatísticas calculadas:  {"sum":"0.00","avg":"0.00","max":"0.00","min":"0.00","count":0} 
+[2024-07-24 20:34:57] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:36:35] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:35] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:35] local.INFO: Current timestamp: 1721853395  
+[2024-07-24 20:36:35] local.INFO: Current minute index calculated: 36  
+[2024-07-24 20:36:35] local.INFO: Updated sum: 0, count: 0, max: 2.2250738585072E-308, min: 1.7976931348623E+308  
+[2024-07-24 20:36:35] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:35] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:36:35] local.INFO: After cleanUpOldTransactions call - Count: 0  
+[2024-07-24 20:36:35] local.INFO: Statistics after cleanup - Sum: 0, Max: 2.2250738585072E-308, Min: 1.7976931348623E+308, Count: 0  
+[2024-07-24 20:36:35] local.INFO: Estatísticas calculadas:  {"sum":"0.00","avg":"0.00","max":"0.00","min":"0.00","count":0} 
+[2024-07-24 20:36:35] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:36:38] local.INFO: Dados validados com sucesso. {"data":{"amount":100.1,"timestamp":"2024-07-24T20:36:28.671Z"}} 
+[2024-07-24 20:36:38] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:38] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:38] local.INFO: Current timestamp: 1721853398  
+[2024-07-24 20:36:38] local.INFO: Current minute index calculated: 36  
+[2024-07-24 20:36:38] local.INFO: Updated sum: 100.1, count: 1, max: 100.1, min: 100.1  
+[2024-07-24 20:36:38] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:38] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:36:38] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:38] local.INFO: Transação armazenada. {"amount":100.1,"timestamp":"2024-07-24 20:36:28"} 
+[2024-07-24 20:36:38] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:36:39] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:39] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:39] local.INFO: Current timestamp: 1721853399  
+[2024-07-24 20:36:39] local.INFO: Current minute index calculated: 36  
+[2024-07-24 20:36:39] local.INFO: Updated sum: 100.1, count: 1, max: 100.1, min: 100.1  
+[2024-07-24 20:36:39] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:39] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:36:39] local.INFO: After cleanUpOldTransactions call - Count: 1  
+[2024-07-24 20:36:39] local.INFO: Statistics after cleanup - Sum: 100.1, Max: 100.1, Min: 100.1, Count: 1  
+[2024-07-24 20:36:39] local.INFO: Estatísticas calculadas:  {"sum":"100.10","avg":"100.10","max":"100.10","min":"100.10","count":1} 
+[2024-07-24 20:36:39] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:36:39] local.INFO: Dados validados com sucesso. {"data":{"amount":100.75,"timestamp":"2024-07-24T20:36:19.752Z"}} 
+[2024-07-24 20:36:39] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:39] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:39] local.INFO: Current timestamp: 1721853399  
+[2024-07-24 20:36:39] local.INFO: Current minute index calculated: 36  
+[2024-07-24 20:36:39] local.INFO: Updated sum: 200.85, count: 2, max: 100.75, min: 100.1  
+[2024-07-24 20:36:39] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:39] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:36:39] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:39] local.INFO: Transação armazenada. {"amount":100.75,"timestamp":"2024-07-24 20:36:19"} 
+[2024-07-24 20:36:39] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:36:40] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:40] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:40] local.INFO: Current timestamp: 1721853400  
+[2024-07-24 20:36:40] local.INFO: Current minute index calculated: 36  
+[2024-07-24 20:36:40] local.INFO: Updated sum: 200.85, count: 2, max: 100.75, min: 100.1  
+[2024-07-24 20:36:40] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:40] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:36:40] local.INFO: After cleanUpOldTransactions call - Count: 2  
+[2024-07-24 20:36:40] local.INFO: Statistics after cleanup - Sum: 200.85, Max: 100.75, Min: 100.1, Count: 2  
+[2024-07-24 20:36:40] local.INFO: Estatísticas calculadas:  {"sum":"200.85","avg":"100.43","max":"100.75","min":"100.10","count":2} 
+[2024-07-24 20:36:40] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:36:40] local.INFO: Dados validados com sucesso. {"data":{"amount":100.2,"timestamp":"2024-07-24T20:36:10.806Z"}} 
+[2024-07-24 20:36:40] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:40] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:40] local.INFO: Current timestamp: 1721853400  
+[2024-07-24 20:36:40] local.INFO: Current minute index calculated: 36  
+[2024-07-24 20:36:40] local.INFO: Updated sum: 301.05, count: 3, max: 100.75, min: 100.1  
+[2024-07-24 20:36:40] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:40] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:36:40] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:40] local.INFO: Transação armazenada. {"amount":100.2,"timestamp":"2024-07-24 20:36:10"} 
+[2024-07-24 20:36:40] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:36:41] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:41] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:41] local.INFO: Current timestamp: 1721853401  
+[2024-07-24 20:36:41] local.INFO: Current minute index calculated: 36  
+[2024-07-24 20:36:41] local.INFO: Updated sum: 301.05, count: 3, max: 100.75, min: 100.1  
+[2024-07-24 20:36:41] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:41] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:36:41] local.INFO: After cleanUpOldTransactions call - Count: 3  
+[2024-07-24 20:36:41] local.INFO: Statistics after cleanup - Sum: 301.05, Max: 100.75, Min: 100.1, Count: 3  
+[2024-07-24 20:36:41] local.INFO: Estatísticas calculadas:  {"sum":"301.05","avg":"100.35","max":"100.75","min":"100.10","count":3} 
+[2024-07-24 20:36:41] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:36:41] local.INFO: Dados validados com sucesso. {"data":{"amount":300.25,"timestamp":"2024-07-24T20:36:01.863Z"}} 
+[2024-07-24 20:36:41] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:41] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:41] local.INFO: Current timestamp: 1721853401  
+[2024-07-24 20:36:41] local.INFO: Current minute index calculated: 36  
+[2024-07-24 20:36:41] local.INFO: Updated sum: 601.3, count: 4, max: 300.25, min: 100.1  
+[2024-07-24 20:36:41] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:41] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:36:41] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:41] local.INFO: Transação armazenada. {"amount":300.25,"timestamp":"2024-07-24 20:36:01"} 
+[2024-07-24 20:36:41] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:36:42] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:42] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:42] local.INFO: Current timestamp: 1721853402  
+[2024-07-24 20:36:42] local.INFO: Current minute index calculated: 36  
+[2024-07-24 20:36:42] local.INFO: Updated sum: 601.3, count: 4, max: 300.25, min: 100.1  
+[2024-07-24 20:36:42] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:42] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:36:42] local.INFO: After cleanUpOldTransactions call - Count: 4  
+[2024-07-24 20:36:42] local.INFO: Statistics after cleanup - Sum: 601.3, Max: 300.25, Min: 100.1, Count: 4  
+[2024-07-24 20:36:42] local.INFO: Estatísticas calculadas:  {"sum":"601.30","avg":"150.33","max":"300.25","min":"100.10","count":4} 
+[2024-07-24 20:36:42] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:36:43] local.INFO: Chamando o método destroy para resetar as transações.  
+[2024-07-24 20:36:43] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:43] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:36:43] local.INFO: Dados resetados e armazenados no arquivo.  
+[2024-07-24 20:36:43] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:36:46] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:46] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:36:46] local.INFO: Current timestamp: 1721853406  
+[2024-07-24 20:36:46] local.INFO: Current minute index calculated: 36  
+[2024-07-24 20:36:46] local.INFO: Updated sum: 0, count: 0, max: 2.2250738585072E-308, min: 1.7976931348623E+308  
+[2024-07-24 20:36:46] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:36:46] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:36:46] local.INFO: After cleanUpOldTransactions call - Count: 0  
+[2024-07-24 20:36:46] local.INFO: Statistics after cleanup - Sum: 0, Max: 2.2250738585072E-308, Min: 1.7976931348623E+308, Count: 0  
+[2024-07-24 20:36:46] local.INFO: Estatísticas calculadas:  {"sum":"0.00","avg":"0.00","max":"0.00","min":"0.00","count":0} 
+[2024-07-24 20:36:46] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:37:01] local.INFO: Dados validados com sucesso. {"data":{"amount":200.5,"timestamp":"2024-07-24T20:36:53.484Z"}} 
+[2024-07-24 20:37:01] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:37:01] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:37:01] local.INFO: Current timestamp: 1721853421  
+[2024-07-24 20:37:01] local.INFO: Current minute index calculated: 37  
+[2024-07-24 20:37:01] local.INFO: Updated sum: 0, count: 0, max: 2.2250738585072E-308, min: 1.7976931348623E+308  
+[2024-07-24 20:37:01] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:37:01] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:37:01] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:37:01] local.INFO: Transação armazenada. {"amount":200.5,"timestamp":"2024-07-24 20:36:53"} 
+[2024-07-24 20:37:01] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:37:04] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:37:04] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:37:04] local.INFO: Current timestamp: 1721853424  
+[2024-07-24 20:37:04] local.INFO: Current minute index calculated: 37  
+[2024-07-24 20:37:04] local.INFO: Updated sum: 0, count: 0, max: 2.2250738585072E-308, min: 1.7976931348623E+308  
+[2024-07-24 20:37:04] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:37:04] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:37:04] local.INFO: After cleanUpOldTransactions call - Count: 0  
+[2024-07-24 20:37:04] local.INFO: Statistics after cleanup - Sum: 0, Max: 2.2250738585072E-308, Min: 1.7976931348623E+308, Count: 0  
+[2024-07-24 20:37:04] local.INFO: Estatísticas calculadas:  {"sum":"0.00","avg":"0.00","max":"0.00","min":"0.00","count":0} 
+[2024-07-24 20:37:04] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:37:05] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:37:05] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:37:05] local.INFO: Current timestamp: 1721853425  
+[2024-07-24 20:37:05] local.INFO: Current minute index calculated: 37  
+[2024-07-24 20:37:05] local.INFO: Updated sum: 0, count: 0, max: 2.2250738585072E-308, min: 1.7976931348623E+308  
+[2024-07-24 20:37:05] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:37:05] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:37:05] local.INFO: After cleanUpOldTransactions call - Count: 0  
+[2024-07-24 20:37:05] local.INFO: Statistics after cleanup - Sum: 0, Max: 2.2250738585072E-308, Min: 1.7976931348623E+308, Count: 0  
+[2024-07-24 20:37:05] local.INFO: Estatísticas calculadas:  {"sum":"0.00","avg":"0.00","max":"0.00","min":"0.00","count":0} 
+[2024-07-24 20:37:05] local.INFO: Dados sincronizados do arquivo.  
+[2024-07-24 20:37:06] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:37:06] local.INFO: Dados carregados da memória compartilhada.  
+[2024-07-24 20:37:06] local.INFO: Current timestamp: 1721853426  
+[2024-07-24 20:37:06] local.INFO: Current minute index calculated: 37  
+[2024-07-24 20:37:06] local.INFO: Updated sum: 0, count: 0, max: 2.2250738585072E-308, min: 1.7976931348623E+308  
+[2024-07-24 20:37:06] local.INFO: Dados armazenados na memória compartilhada.  
+[2024-07-24 20:37:06] local.INFO: Dados resetados e armazenados na memória compartilhada.  
+[2024-07-24 20:37:06] local.INFO: After cleanUpOldTransactions call - Count: 0  
+[2024-07-24 20:37:06] local.INFO: Statistics after cleanup - Sum: 0, Max: 2.2250738585072E-308, Min: 1.7976931348623E+308, Count: 0  
+[2024-07-24 20:37:06] local.INFO: Estatísticas calculadas:  {"sum":"0.00","avg":"0.00","max":"0.00","min":"0.00","count":0} 
+[2024-07-24 20:37:06] local.INFO: Dados sincronizados do arquivo.  
